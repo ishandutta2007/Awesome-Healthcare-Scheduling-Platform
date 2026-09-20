@@ -48,9 +48,9 @@ The following table lists leading commercial healthcare scheduling platforms, so
 
 These self-hostable open-source solutions allow health systems, privacy-conscious practices, and developers to deploy HIPAA-ready appointment booking and clinical management systems without vendor lock-in. 💻
 
-Sorted by **GitHub Star Count (Descending)**: ⭐
+Sorted by **GitHub Stars_Count (Descending)**: ⭐
 
-| Project | GitHub Stars ⭐ | License 📜 | Tech Stack 🛠️ | Primary Focus & Highlights 🔍 |
+| Project | GitHub_Stars ⭐ | License 📜 | Tech Stack 🛠️ | Primary Focus & Highlights 🔍 |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Cal.com](https://cal.com)** | [![Stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers) | AGPL-3.0 | Next.js, TypeScript, PostgreSQL | Enterprise-grade scheduling infrastructure with HIPAA compliance workflows and telehealth app integrations. 🗓️ |
 | **[HospitalRun](https://hospitalrun.io)** | [![Stars](https://img.shields.io/github/stars/hospitalrun/hospitalrun-frontend?style=social&color=white)](https://github.com/hospitalrun/hospitalrun-frontend/stargazers) | Offline-First | React, Ember, Node.js | User-friendly EHR and hospital management system designed for developing world healthcare facilities. 🌍 |
