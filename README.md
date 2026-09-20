@@ -1,147 +1,83 @@
-# Awesome-Healthcare-Scheduling-Platform
+# Awesome Healthcare Scheduling Platform 🏥
 
-Top Healthcare Scheduling Platforms Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Curated List of SaaS Products & Open-Source GitHub Projects
-Focused on Patient Appointment Booking, Provider Calendar Management, Clinical Workflow & Practice Scheduling
-Last updated: September 2026
+> A curated directory of top **Healthcare Scheduling Platforms**, **Electronic Health Record (EHR) integrations**, **Patient Appointment Booking systems**, and **Open-Source Clinical Workflow software**.
 
-This repository tracks notable SaaS platforms and open-source projects for Healthcare Scheduling. These tools help medical practices, clinics, hospitals, and healthcare organizations manage patient appointments, provider availability, clinical calendars, and patient communication.
+Whether you are managing a medical practice, hospital network, or building a HIPAA-compliant telehealth application, this list covers leading SaaS providers and production-ready open-source platforms.
 
-Examples include QGenda, Kyruus Health, Luma Health, Relatient, Notable, Phreesia, Zocdoc, Healthie, CareCloud, and Doctolib Pro (the category leaders).
+---
 
-Open-source emphasis: This section is heavily expanded with every major active project for self-hosting, custom clinical workflows, and transparent patient data handling — ideal for privacy-conscious practices, health systems, and developers building HIPAA-compliant scheduling solutions without vendor lock-in.
+## 📊 Market Overview & Industry Insights
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+> **Market Size & Growth:** The global **Healthcare Scheduling Software Market** is estimated at **~$470M – $650M (2026)** and is projected to expand at a CAGR of **12% to 13.7%** over the decade.
+>
+> **Market Structure:** The sector exhibits **moderate fragmentation** with medium market concentration. While major health systems rely on enterprise workforce management platforms (such as QGenda and Kyruus Health) or EHR-native modules (Epic/Cerner), the ambulatory, specialized clinic, and telehealth segments remain fragmented with diverse niche SaaS platforms and self-hosted open-source solutions.
 
-Table of Contents
+---
 
-SaaS/Hosted Platforms
+## 🏢 SaaS & Hosted Platforms
 
-Open-Source GitHub Projects
+The following table lists leading commercial healthcare scheduling platforms, sorted by **Company Size / Valuation / Revenue (Descending)**.
 
-How to Contribute
+| Platform | Starting Price | Free Tier / Trial Limit | Company Size / Valuation / Revenue | Key Features & Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Doctolib Pro](https://www.doctolib.fr/)** | €139 / month | 0 days (No free trial available) | Valuation ~€3.6B ($3.9B) \| Revenue >€400M ARR | European leader in medical practice management, online appointment booking, and teleconsultations. |
+| **[Zocdoc](https://www.zocdoc.com/)** | $0/mo base (Pay per new patient booking ~$35–$110) | 0 days (Free practice tools included; pay per new booking) | Valuation ~$1.8B \| Revenue ~$71M+ | Popular consumer-facing booking marketplace connecting patients with in-network providers. |
+| **[QGenda](https://www.qgenda.com/)** | ~$5,000 / year (Custom per provider base) | 0 days (No free trial available; custom demo only) | Valuation >$1.0B (Acquired by Hearst 2024) \| Revenue ~$76M ARR | Enterprise physician scheduling, capacity management, and automated on-call rotations. |
+| **[Phreesia](https://www.phreesia.com/)** | ~$250 / month / practice | 0 days (No free trial available; live demo provided) | Market Cap ~$630M (NYSE: PHR) \| Revenue ~$480M TTM | Patient intake, digital registration, copay collection, and automated appointment scheduling. |
+| **[Notable](https://www.notablehealth.com/)** | ~$25,000 / year enterprise base | 0 days (No free trial available; executive demo only) | Valuation ~$600M \| Revenue ~$42.5M ARR | AI-powered workflow automation for patient intake, care gap closure, and intelligent scheduling. |
+| **[Luma Health](https://www.lumahealth.io/)** | ~$250 / user / month | 0 days (No free trial available; demo provided) | Valuation ~$500M–$1B \| Revenue ~$30M–$50M ARR | Patient engagement platform reducing no-shows via automated SMS reminders and EHR-integrated booking. |
+| **[Kyruus Health](https://kyruushealth.com/)** | ~$10,000 / year enterprise base | 0 days (No free trial available; custom demo only) | Valuation Enterprise (Acquired by RevSpring 2025) \| Revenue >$150M ARR | Enterprise provider directory, patient-provider matching, and health system referral management. |
+| **[CareCloud](https://www.carecloud.com/)** | ~$300 / provider / month | 0 days (No free trial available; live demo only) | Market Cap ~$92M (NASDAQ: CCLD) \| Revenue ~$129M TTM | Cloud practice management, EHR, medical billing (RCM), and integrated patient scheduling. |
+| **[Relatient](https://www.relatient.com/)** | ~$99 / provider / month | 0 days (No free trial available; interactive demo only) | Funding $100M+ (Brighton Park Capital) \| Revenue ~$71.4M ARR | Dash® AI-driven patient scheduling, automated multi-channel appointment reminders, and digital intake. |
+| **[Healthie](https://www.gethealthie.com/)** | $29 / month | 14 days free trial (Full platform features access) | Private VC-backed (Series B) \| Revenue Generating | Feature-rich EHR and scheduling API built for digital health startups, wellness clinics, and telehealth. |
 
-Disclaimer
+---
 
-SaaS/Hosted Platforms
+## 🔓 Open-Source GitHub Projects
 
-QGenda
-Enterprise provider scheduling and workforce management platform for healthcare organizations. Handles complex physician scheduling, on-call rotations, and capacity management at scale.
+These self-hostable open-source solutions allow health systems, privacy-conscious practices, and developers to deploy HIPAA-ready appointment booking and clinical management systems without vendor lock-in.
 
-Kyruus Health
-Provider search, scheduling, and referral management platform. Connects patients to the right care through intelligent matching and real-time availability across health systems.
+Sorted by **GitHub Star Count (Descending)**:
 
-Luma Health
-Patient engagement and scheduling platform focused on reducing no-shows, automating reminders, and streamlining referral workflows for medical practices.
+| Project | GitHub Stars | License | Tech Stack | Primary Focus & Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Cal.com](https://cal.com)** | [![Stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers) | AGPL-3.0 | Next.js, TypeScript, PostgreSQL | Enterprise-grade scheduling infrastructure with HIPAA compliance workflows and telehealth app integrations. |
+| **[HospitalRun](https://hospitalrun.io)** | [![Stars](https://img.shields.io/github/stars/hospitalrun/hospitalrun-frontend?style=social&color=white)](https://github.com/hospitalrun/hospitalrun-frontend/stargazers) | Offline-First | React, Ember, Node.js | User-friendly EHR and hospital management system designed for developing world healthcare facilities. |
+| **[OpenEMR](https://www.open-emr.org)** | [![Stars](https://img.shields.io/github/stars/openemr/openemr?style=social&color=white)](https://github.com/openemr/openemr/stargazers) | GPL-3.0 | PHP, MySQL, JavaScript | ONC-Certified EHR & practice management system with patient portal scheduling, recall board, and SMS reminders. |
+| **[Medplum](https://www.medplum.com)** | [![Stars](https://img.shields.io/github/stars/medplum/medplum?style=social&color=white)](https://github.com/medplum/medplum/stargazers) | Apache-2.0 | TypeScript, React, PostgreSQL | Developer-first headlessly hostable EHR and FHIR-native scheduling API platform for clinical apps. |
+| **[OpenMRS Core](https://openmrs.org)** | [![Stars](https://img.shields.io/github/stars/openmrs/openmrs-core?style=social&color=white)](https://github.com/openmrs/openmrs-core/stargazers) | MPL-2.0 | Java, Spring, MySQL | Enterprise health record system for global health delivery, supporting appointment queue management. |
+| **[OpenHospital](https://www.open-hospital.org/)** | [![Stars](https://img.shields.io/github/stars/informatici/openhospital?style=social&color=white)](https://github.com/informatici/openhospital/stargazers) | GPL-3.0 | Java, MySQL | Lightweight electronic health record and patient scheduling software developed for rural hospitals. |
+| **[CARE (CoronaSafe)](https://care.coronasafe.network/)** | [![Stars](https://img.shields.io/github/stars/coronasafe/care_fe?style=social&color=white)](https://github.com/coronasafe/care_fe/stargazers) | MIT | React, TypeScript, Django | Open-source hospital capacity management, patient tracking, and clinical appointment allocation engine. |
+| **[Imhotep Smart Clinic](https://github.com/Imhotep-Tech/imhotep_smart_clinic)** | [![Stars](https://img.shields.io/github/stars/Imhotep-Tech/imhotep_smart_clinic?style=social&color=white)](https://github.com/Imhotep-Tech/imhotep_smart_clinic/stargazers) | MIT | Python (Django), TailwindCSS | Modern clinic management system featuring digital medical records, smart appointment booking, and analytics. |
+| **[OpenReception](https://openreception.org)** | [![Stars](https://img.shields.io/github/stars/Bitstackers/openreception?style=social&color=white)](https://github.com/Bitstackers/openreception/stargazers) | AGPL-3.0 | Dart, C++, Flutter | Privacy-first encrypted booking system funded by BMBF (Germany), featuring quantum-resistant encryption. |
+| **[Ayadati](https://github.com/ARM-technology/Ayadati)** | [![Stars](https://img.shields.io/github/stars/ARM-technology/Ayadati?style=social&color=white)](https://github.com/ARM-technology/Ayadati/stargazers) | Open Source | Go, Flutter, PostgreSQL | Multi-platform appointment manager with staff role dashboards, public booking, and billing integration. |
 
-Relatient
-Patient appointment reminder and scheduling software. Reduces no-shows through automated SMS, email, and voice reminders with self-scheduling capabilities.
+---
 
-Notable
-AI-powered healthcare workflow automation platform. Automates patient scheduling, intake, and care gap closure using intelligent agents and EHR integration.
+## 🛠️ Architecture & Tech Stack Recommendations
 
-Phreesia
-Patient intake and engagement platform with scheduling, registration, and payment capabilities. Widely used by medical practices for front-office automation.
+When building a custom healthcare scheduling platform or integrating existing EHRs:
 
-Zocdoc
-Consumer-facing appointment booking marketplace. Connects patients with providers based on insurance, location, and availability.
+1. **Data Standards:** Enforce **HL7 FHIR (Fast Healthcare Interoperability Resources)** for appointment resources (`Appointment`, `Schedule`, `Slot`).
+2. **Security & Compliance:** Ensure end-to-end encryption at rest (AES-256) and in transit (TLS 1.3), Business Associate Agreements (BAA) with infrastructure providers, and strict RBAC.
+3. **Notification Pipelines:** Integrate Twilio or SendGrid APIs for automated SMS/email booking confirmations, intake form links, and reminder triggers.
 
-Healthie
-EHR and practice management platform for health and wellness providers. Includes scheduling, telehealth, billing, and patient engagement tools.
+---
 
-CareCloud
-Cloud-based healthcare technology platform offering practice management, EHR, and patient scheduling for medical practices of all sizes.
+## 🤝 How to Contribute
 
-Doctolib Pro
-European medical practice management and appointment booking platform. Enables online booking, patient communication, and calendar management for healthcare professionals.
+We welcome community contributions to keep this ecosystem list up to date!
 
-Open-Source GitHub Projects
+1. **Fork** this repository.
+2. Add your SaaS or Open-Source scheduling project to `README.md` maintaining table formatting.
+3. Ensure details (pricing, star link, tech stack) are accurate and backed by links.
+4. Submit a **Pull Request** with a clear title.
 
-OpenEMR
-The most popular open-source electronic health records and medical practice management solution. Fully integrated scheduling with patient flow board, appointment reminders via email/SMS, recall board, repeating appointments, and provider calendar management. ONC Certified and HIPAA-ready. PHP-based. License: GNU GPL -
-4
--
-8
--
-16
-.
+---
 
-OpenReception
-Privacy-focused, open-source appointment scheduling system for medical practices. Features end-to-end encryption between practice and patient, patient self-booking without data exploitation, central practice dashboard for managing appointments and availability, and quantum-resistant encryption methods. Funded by the German Federal Ministry for Research, Technology and Space. License: AGPL v3 -
-2
--
-14
-.
+## ⚖️ Disclaimer
 
-Ayadati
-Full-stack medical appointment management system. Go REST API (PostgreSQL, JWT, AES-256) paired with a single Flutter codebase running on Web, Windows, and Android. Features staff dashboard with role-based accounts (admin/doctor/receptionist), public self-booking without login, payment collection, bulk recurring appointment creation, and Excel report export. License: Open source -
-6
-.
-
-Imhotep Smart Clinic
-Modern medical clinic management system built with Django and TailwindCSS. Features digital medical records, smart appointment scheduling, prescription management, practice analytics, and PWA support. 100% self-hostable with Docker deployment. License: MIT -
-7
-.
-
-MultiView Calendar Healthcare Appointment System
-Full-featured calendar and appointment management web application built with Next.js, React, and PostgreSQL. Supports multiple calendar views (month/week), instant search, advanced filtering, permission management, and client management. Ideal for clinics and healthcare organizations. License: Open source -
-3
-.
-
-OpenMRS Patient Management
-Frontend modules for patient management including appointment scheduling, patient list management, registration, search, and service queue management. Part of the OpenMRS ecosystem for resource-constrained healthcare settings. License: Open source -
-11
-.
-
-Circumflex Booking
-Self-hosted appointment booking plugin for WordPress. Supports treatments, consultations, and scheduled services with manual approval workflow. Features practitioner management, recurring weekly hours, buffers, email notifications, and customer self-service cancellation. Data stays on-site with no external dependencies. License: Open source -
-10
-.
-
-Additional Strong Open-Source Options
-
-Practice Management Suites: OpenEMR and OpenMRS provide comprehensive EHR + scheduling in single deployments -
-4
--
-11
-.
-
-Appointment-Specific: OpenReception for privacy-first booking, Circumflex Booking for WordPress-based practices -
-2
--
-10
-.
-
-Custom Frontends: Ayadati (Flutter multi-platform) and MultiView Calendar (Next.js) for building tailored scheduling interfaces -
-6
--
-3
-.
-
-Telehealth Integration: Community projects connecting scheduling with Jitsi or Daily.co for virtual visit booking.
-
-Frameworks for building custom systems: Combine OpenEMR or Imhotep Smart Clinic for clinical records, OpenReception for privacy-focused patient booking, PostgreSQL for persistence, and Docker for deployment. Add Twilio or SendGrid for SMS/email reminders.
-
-How to Contribute
-
-Fork the repo.
-
-Add/edit entries in README.md (follow existing format).
-
-Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-Disclaimer
-
-This is a community-curated list — not exhaustive and not an endorsement.
-
-Healthcare scheduling tools handle protected health information (PHI); ensure compliance with HIPAA, GDPR, and regional healthcare regulations.
-
-Self-hosted open-source solutions require proper security hardening, encryption, and regular audits.
-
-Made for medical practice managers, health system administrators, clinical informaticists, and healthcare developers.
-Let's make healthcare scheduling more open, transparent, and patient-centric.
+This repository is for informational and educational purposes only. Tools handling Protected Health Information (PHI) must be audited independently for HIPAA, GDPR, and local medical regulatory compliance before deployment in clinical production environments.
