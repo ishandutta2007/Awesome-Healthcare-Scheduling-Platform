@@ -41,6 +41,7 @@ The following table lists leading commercial healthcare scheduling platforms, so
 | **[CareCloud](https://www.carecloud.com/)** | ~$300 / provider / month | 0 days (No free trial available; live demo only) | Market Cap ~$92M (NASDAQ: CCLD) \| Revenue ~$129M TTM | Cloud practice management, EHR, medical billing (RCM), and integrated patient scheduling. ☁️ |
 | **[Relatient](https://www.relatient.com/)** | ~$99 / provider / month | 0 days (No free trial available; interactive demo only) | Funding $100M+ (Brighton Park Capital) \| Revenue ~$71.4M ARR | Dash® AI-driven patient scheduling, automated multi-channel appointment reminders, and digital intake. 💬 |
 | **[Healthie](https://www.gethealthie.com/)** | $29 / month | 14 days free trial (Full platform features access) | Private VC-backed (Series B) \| Revenue Generating | Feature-rich EHR and scheduling API built for digital health startups, wellness clinics, and telehealth. 🌿 |
+| **[Genaya](https://genaya.com/)** | $99 / month (Individual plan, 1 user) | 14 days free trial (Card required, no free tier) | Early-stage, private | AI operations platform for clinics and service businesses with online booking pages, calling and texting, invoices, and an AI phone receptionist. 📞 |
 
 ---
 
